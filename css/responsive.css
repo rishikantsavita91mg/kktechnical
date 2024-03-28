@@ -1,0 +1,807 @@
+/* @media screen and (max-width: 1920px){
+    .banner-img{
+        width: 100%;
+        height: 786px;
+    }
+    .courses-section{
+        padding: 60px 0 100px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .banner-img{
+        width: 100%;
+        height: 680px;
+    }
+} */
+
+
+@media screen and (max-width: 1229px) {
+    .header-section {
+        padding: 20px 0 17px 0;
+        width: 100%;
+    }
+
+    .logo {
+        width: 110px;
+        height: 35px;
+    }
+
+    .logo a img {
+        width: 100%;
+    }
+
+    .banner-cnt-text h1 {
+        margin-bottom: 30px;
+        font-size: 50px;
+        width: 100%;
+        padding-top: 50px;
+        /* width: 85%; */
+    }
+
+    .banner-cnt-text p {
+        margin-bottom: 35px;
+        line-height: 25px;
+        width: 60%;
+    }
+
+    .banner-cnt-text a,
+    .about-left a,
+    .courses-head button {
+        padding: 12px 50px;
+    }
+
+    .about-section {
+        padding: 60px 0 70px;
+    }
+
+    .about-left h2 {
+        margin-bottom: 35px;
+    }
+
+    .about-left p {
+        width: 85%;
+        margin-bottom: 35px;
+    }
+
+    .about-img.img-box {
+        height: 350px;
+    }
+
+    .courses-section {
+        padding: 50px 0 100px;
+        overflow: hidden;
+    }
+
+    .courses-section {
+        padding: 35px 0 70px;
+    }
+
+    .courses-wrapper {
+        width: 100%;
+    }
+
+    .courses-head {
+        padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .courses-head button {
+        padding: 10px 50px;
+    }
+
+    .item-img {
+        margin-bottom: 17px;
+    }
+
+    .test-section {
+        padding: 70px 0 160px;
+    }
+
+    .test-heading {
+        padding-bottom: 50px;
+    }
+
+    button.slick-next.slick-arrow {
+        left: 52%;
+    }
+
+    .achievement-image {
+        height: 400px;
+    }
+
+    .achievement-main {
+        padding-top: 50px;
+    }
+
+    .achievement-content h2 {
+        margin-bottom: 5px;
+    }
+
+    .achievement-content h2 span {
+        font-size: 50px;
+    }
+
+    .footer-wrapper {
+        padding: 35px 0 40px;
+    }
+
+    .footer-content p {
+        width: 100%;
+        margin-top: 26px;
+        margin-bottom: 16px;
+    }
+
+    .footer-call {
+        margin-top: 16px;
+    }
+
+    .footer-links h4 {
+        margin-bottom: 22px;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 12px;
+    }
+
+    .footer-hour h4 {
+        margin-bottom: 30px;
+        margin-left: 27px;
+    }
+
+    .hours-row span,
+    .hours-row p {
+        width: 42%;
+    }
+
+    .foot-last-section {
+        padding: 18px 0 15px;
+        border-top: 0.7px solid #ffffffa2;
+    }
+
+    .foot-text span {
+        font-size: 15px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-section {
+        padding: 14px 0 11px 0;
+    }
+
+    .logo {
+        width: 90px;
+        height: 28px;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .banner-cnt-text h1 {
+        margin-bottom: 20px;
+        padding-top: 30px;
+        font-size: 40px;
+        /* width: 75%; */
+    }
+
+    .banner-cnt-text p {
+        margin-bottom: 28px;
+        line-height: 18px;
+        /* width: 48%; */
+    }
+
+    .banner-cnt-text a,
+    .about-left a,
+    .courses-head button {
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    /* menu bar start  */
+    .menu-icon, .fa-bars{
+        display: block;
+    }
+    .header-wrapper.open-menu .fa-times{
+        display: block;
+    }
+    .header-wrapper.open-menu .fa-bars{
+        display: none;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu {
+        background-color: var(--secoundry-color);
+        width: 100%;
+        padding: 20px 10px;
+        position: absolute;
+        top: 100%;
+        border-top: 1px solid #fff;
+        right: 0;
+        display: none;
+    }
+
+    .header-wrapper {
+        position: inherit;
+    }
+
+    /* menu bar end   */
+    .about-section {
+        padding: 40px 0 50px;
+    }
+
+    .about-left h2 {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .about-left p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-wrapper {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .about-left {
+        width: calc(50% - 15px);
+    }
+
+    .about-right {
+        width: calc(50% - 15px);
+    }
+
+    .about-img.img-box {
+        height: 300px;
+    }
+
+    .test-section {
+        padding: 40px 0 120px;
+    }
+
+    .test-heading {
+        padding-bottom: 30px;
+    }
+
+    button.slick-next.slick-arrow {
+        left: 52%;
+    }
+
+    .test-content {
+        padding: 16px 12px;
+    }
+
+    .test-content p {
+        margin-bottom: 8px;
+        line-height: 22px;
+    }
+
+    .person-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .person-name h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .person-name span {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    button.slick-next.slick-arrow {
+        bottom: -70px;
+    }
+
+    button.slick-prev.slick-arrow {
+        bottom: -70px;
+        left: 44%;
+    }
+
+    .achievement-image {
+        height: 320px;
+    }
+
+    .achievement-main {
+        padding-top: 30px;
+    }
+
+    .achievement-heading h3 {
+        font-size: 32px;
+    }
+
+    .achievement-content h2 {
+        margin-bottom: 3px;
+    }
+
+    .achievement-content h2 span {
+        font-size: 35px;
+    }
+
+    .achievement-content span {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .item-img {
+        min-height: 166px;
+    }
+
+    .item-img img {
+        width: 100%;
+    }
+
+    .courses-item h6 {
+        font-size: 15px;
+        letter-spacing: 0.08px;
+    }
+
+    .footer-wrapper {
+        padding: 25px 0 30px;
+        gap: 10px;
+    }
+
+    .footer-content p {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .footer-gmail {
+        gap: 8px;
+    }
+
+    .footer-call {
+        margin-top: 10px;
+        gap: 8px;
+    }
+
+    .footer-gmail a,
+    .footer-call a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .footer-links h4 {
+        margin-bottom: 26px;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 5px;
+    }
+
+    .footer-hour h4 {
+        margin-bottom: 22px;
+        margin-left: 6px;
+    }
+
+    .hours-row span {
+        width: 40%;
+    }
+
+    .hours-row p {
+        width: 55%;
+    }
+
+    .foot-last-section {
+        padding: 14px 0 12px;
+        border-top: 0.5px solid #ffffffa2;
+    }
+
+    .foot-text span {
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .courses-content {
+        margin: 0 -20px;
+    }
+    .courses-item {
+        padding: 0 20px;
+    }
+    .test-list{
+        margin: 0 -7px;
+    }
+    .test-content-main{
+        padding: 0 7px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-section {
+        padding: 12px 0 9px 0;
+    }
+
+    .logo {
+        width: 80px;
+        height: 24px;
+    }
+
+    .menu ul {
+        gap: 12px;
+    }
+
+    .banner-img img {
+        min-height: 360px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner-cnt-text h1 {
+        margin-bottom: 10px;
+        padding-top: 24px;
+        font-size: 38px;
+    }
+
+    .banner-cnt-text p {
+        margin-bottom: 16px;
+        line-height: 18px;
+        width: 71%;
+    }
+
+    .banner-cnt-text a,
+    .about-left a,
+    .courses-head button {
+        padding: 8px 28px;
+        font-size: 15px;
+    }
+
+    .about-section {
+        padding: 20px 0 30px;
+    }
+
+    .about-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .about-left,
+    .about-right {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .about-left h2 {
+        margin-bottom: 15px;
+    }
+
+    .about-left p {
+        margin-bottom: 16px;
+    }
+
+
+    .achievement-image {
+        height: 220px;
+    }
+
+    .achievement-main {
+        padding-top: 20px;
+    }
+
+    .achievement-heading h3 {
+        font-size: 28px;
+    }
+
+    .achievement-content h2 span {
+        font-size: 28px;
+    }
+
+    .achievement-content span {
+        font-size: 14px;
+    }
+
+    .item-img {
+        min-height: 126px;
+    }
+
+    .footer-wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .footer-content {
+        width: calc(50% - 5px);
+    }
+
+    .footer-links {
+        width: calc(50% - 5px);
+    }
+
+    .footer-hour {
+        width: 100%;
+    }
+
+    .footer-hour h4 {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .hour-item {
+        width: 100%;
+    }
+
+    .hours-row {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .footer-call {
+        margin-top: 4px;
+    }
+
+    .hours-row span,
+    .hours-row p {
+        width: 30%;
+    }
+
+    .foot-last-section {
+        padding: 10px 0 8px;
+    }
+
+    .foot-text span {
+        line-height: normal;
+    }
+    .courses-content {
+        margin: 0 -15px;
+    }
+    .courses-item {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header-section {
+        padding: 12px 0 10px 0;
+    }
+
+    .logo {
+        width: 75px;
+        height: 30px;
+    }
+
+    .banner-cnt-text h1 {
+        margin-bottom: 0px;
+        font-size: 28px;
+        line-height: normal;
+        padding-top: 40px;
+        font-weight: 400;
+        letter-spacing: 0;
+        padding-bottom: 6px;
+        max-width: 480px;
+    }
+
+    .banner-cnt-text p {
+        margin-bottom: 12px;
+        line-height: 20px;
+        width: 100%;
+        font-weight: 300;
+        max-width: 363px;
+    }
+
+    .banner-cnt-text a,
+    .about-left a,
+    .courses-head button {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+
+    .banner-img img{
+        min-height: 310px;
+    }
+    .menu {
+        display: none;
+    }
+
+    .about-section {
+        padding: 25px 0 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .about-left h2 {
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+
+    .about-left p {
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .about-img.img-box {
+        height: 260px;
+    }
+    .courses-head{
+        padding-bottom: 20px;
+    }
+    .courses-section{
+        padding: 20px 0 30px;
+    }
+    .test-section {
+        padding: 25px 0 80px;
+    }
+    .item-img{
+        border: 0.8px solid #ddd;
+    }
+    .test-heading {
+        padding-bottom: 22px;
+    }
+
+    .test-heading h2 {
+        font-size: 21px;
+    }
+
+    .test-content-main{
+        width: 100%;
+    }
+    .test-content{
+        width: 100%;
+    }
+    .test-slider .slick-next.slick-arrow, .test-slider .slick-prev.slick-arrow{
+        height: 25px;
+        width: 25px;
+
+    }
+    button.slick-next.slick-arrow, button.slick-prev.slick-arrow  {
+        bottom: -45px;
+    }
+    button.slick-next.slick-arrow {
+        left: 54%;
+    }
+    button.slick-prev.slick-arrow {
+        left: 38%
+   }
+   button.slick-next.slick-arrow::before{
+    font-size: 20px;
+    bottom: 3px;
+    left: 10px;
+   }
+   button.slick-prev.slick-arrow::before{
+    font-size: 20px;
+    right: 10px;
+    bottom: 3px;
+   }
+    .achievement-main {
+        width: 100%;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        row-gap: 15px;
+    }
+
+    .achievement-content {
+        width: 50%;
+    }
+
+    .achievement-content h2 {
+        margin-bottom: 0px;
+    }
+
+    .achievement-heading h3 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer-content,
+    .footer-links,
+    .footer-hour {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        row-gap: 15px;
+        padding: 40px 0 40px;
+    }
+
+    .footer-content p {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        line-height: 22px;
+        font-size: 13px;
+        max-width: 350px;
+    }
+
+    .footer-links h4 {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 0px;
+    }
+
+    .footer-links h4{
+        font-size: 16px;
+    }
+    
+    .footer-links ul li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .footer-hour h4 {
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+
+    .footer-call {
+        margin-top: 8px;
+        gap: 16px;
+    }
+
+    .hours-row span,
+    .hours-row p {
+        width: 40%;
+    }
+
+    .footer-links {
+        align-items: flex-start;
+    }
+
+    .foot-last-section {
+        padding: 8px 0 6px;
+    }
+
+    .foot-last {
+        flex-wrap: wrap;
+        width: 100%;
+        row-gap: 6px;
+    }
+    .footer-gmail {
+        gap: 16px;
+    }
+    .foot-media{
+        gap: 12px;
+    }
+    .menu-icon{
+        font-size: 20px;
+    }
+    .foot-media a{
+        height: 20px;
+        width: 20px;
+    }
+    .foot-text span{
+        font-size: 11px;
+    }
+    .foot-media a i{
+        font-size: 13px;
+    }
+    .courses-content {
+        margin: 0 -10px;
+    }
+    .courses-item {
+        padding: 0 10px;
+    }
+
+    .courses-item h6 {
+        font-size: 14px;
+    }
+
+    .hours-row span, .hours-row p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+}
